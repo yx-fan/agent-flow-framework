@@ -1,0 +1,10 @@
+intents:
+  greet:
+    description: Simple greetings and small talk.
+    keywords: ["hello", "hi", "hey", "morning"]
+  farewell:
+    description: Say goodbye or end the chat.
+    keywords: ["bye", "see you", "goodbye"]
+  qa:
+    description: General Q&A fallback intent.
+    keywords: []

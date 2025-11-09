@@ -1,0 +1,8 @@
+# data/hello/workflows/hello_workflow.yaml
+greet:
+  nodes:
+    - name: Greeting
+      type: node
+      class: GreetingNode
+      agent: HelloAgent
+  edges: []

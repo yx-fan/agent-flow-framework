@@ -6,6 +6,7 @@
 [![Stars](https://img.shields.io/github/stars/yx-fan/mcp-framework.svg?style=social)](https://github.com/yx-fan/mcp-framework)
 [![Framework](https://img.shields.io/badge/framework-LangGraph-blueviolet)](https://github.com/langchain-ai/langgraph)
 [![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688)](https://fastapi.tiangolo.com/)
+[![Version](https://img.shields.io/badge/version-0.1.0-orange.svg)]()
 
 A plug-and-play **multi-agent orchestration framework** for developers building domain-specific AI systems with LangGraph — composable, declarative, and production-ready.
 

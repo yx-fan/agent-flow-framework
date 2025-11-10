@@ -1,5 +1,5 @@
-# 🧠 MCP Framework  
-*A modular LangGraph-based multi-agent orchestration framework*
+# 🧠 Multi-Agent Orchestration Framework  
+*A declarative LangGraph-based framework for building multi-agent workflows*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
@@ -19,7 +19,7 @@ A plug-and-play **multi-agent orchestration framework** for developers building 
 
 ## 🌍 Overview
 
-**MCP Framework (Modular Conversational Platform)**  
+**Multi-Agent Orchestration Framework**  
 is a **developer-oriented orchestration framework** for building **multi-agent, multi-domain AI systems** powered by [LangGraph](https://github.com/langchain-ai/langgraph).
 
 It provides a **structured, extensible runtime** for combining:
@@ -36,7 +36,7 @@ so developers can rapidly compose and extend domain-specific AI applications wit
 
 ---
 
-## ✨ Why MCP?
+## ✨ Why This Framework?
 
 | Feature | Description |
 |----------|--------------|
@@ -54,7 +54,7 @@ so developers can rapidly compose and extend domain-specific AI applications wit
 
 ```
 +-----------------------------------------------------------+
-|                    🧠 MCP Orchestrator                    |
+|              🧠 Multi-Agent Orchestrator                   |
 |-----------------------------------------------------------|
 |  AgentRouter  |  LangGraphBuilder  |  StateManager        |
 +-----------------------------------------------------------+
@@ -74,7 +74,7 @@ This structure allows you to **design your own domain workflows**
 ## 🧩 Execution Demo
 
 ![Demo](docs/assets/demo.png)
-> _Example: MCP orchestrating a full reasoning flow — from intent classification and LangGraph construction to AzureOpenAI inference and Redis state persistence._
+> _Example: The framework orchestrating a full reasoning flow — from intent classification and LangGraph construction to AzureOpenAI inference and Redis state persistence._
 
 ---
 
@@ -137,7 +137,7 @@ In the body, you can also specify a domain and additional session_id if needed:
 }
 ```
 
-✅ MCP dynamically loads the `hello` domain workflow →  
+✅ The framework dynamically loads the `hello` domain workflow →  
 executes `GreetingNode` → calls `HelloAgent` → routes through `AzureOpenAIProvider`.
 
 ---
@@ -190,7 +190,7 @@ mcp-framework/
 
 ## 🧠 Core Concepts
 
-**MCP Framework** consists of three layers — from low-level abstraction to runtime orchestration — each clearly separated and independently extensible.
+**Multi-Agent Orchestration Framework** consists of three layers — from low-level abstraction to runtime orchestration — each clearly separated and independently extensible.
 
 | Layer | Role | Key Components | Purpose |
 |-------|------|----------------|----------|
@@ -247,7 +247,7 @@ Bridges the system to the external world (APIs, databases, file systems), design
 
 ---
 
-## 🔧 Extending MCP
+## 🔧 Extending the Framework
 
 You can easily extend the framework by adding:
 - a new **domain** (e.g., `data/finance/`)
@@ -269,7 +269,7 @@ Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of
 
 ## ⭐ Support
 
-If you find MCP useful, please give it a **⭐️ star** — it helps others discover the project and keeps development active!
+If you find this framework useful, please give it a **⭐️ star** — it helps others discover the project and keeps development active!
 
 ---
 

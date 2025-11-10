@@ -3,7 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
-[![Stars](https://img.shields.io/github/stars/yx-fan/mcp-framework.svg?style=social)](https://github.com/yx-fan/mcp-framework)
+[![Stars](https://img.shields.io/github/stars/yx-fan/agent-flow-framework.svg?style=social)](https://github.com/yx-fan/agent-flow-framework)
 [![Framework](https://img.shields.io/badge/framework-LangGraph-blueviolet)](https://github.com/langchain-ai/langgraph)
 [![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688)](https://fastapi.tiangolo.com/)
 [![Version](https://img.shields.io/badge/version-0.1.0-orange.svg)]()
@@ -81,8 +81,8 @@ This structure allows you to **design your own domain workflows**
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yx-fan/mcp-framework.git
-cd mcp-framework
+git clone https://github.com/yx-fan/agent-flow-framework.git
+cd agent-flow-framework
 pip install -r requirements.txt
 cp .env.example .env
 ```
@@ -173,7 +173,7 @@ and defining custom `intents.yaml` + `workflow.yaml` files.
 
 ## 📂 Project Structure
 
-mcp-framework/
+agent-flow-framework/
 ├── core/                # Base abstractions & registry
 ├── orchestrator/        # LangGraph builder & orchestration logic
 ├── nodes/               # Domain-specific nodes
@@ -261,7 +261,7 @@ Then just register it in your YAML workflow — no orchestration code changes re
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to open a [Pull Request](https://github.com/yx-fan/mcp-framework/pulls) or start a discussion.
+Feel free to open a [Pull Request](https://github.com/yx-fan/agent-flow-framework/pulls) or start a discussion.
 
 Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 

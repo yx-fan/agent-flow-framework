@@ -1,8 +1,8 @@
-# Contributing to MCP Framework
+# Contributing to Multi-Agent Orchestration Framework
 
-Thank you for your interest in contributing to MCP Framework! 🎉
+Thank you for your interest in contributing to Multi-Agent Orchestration Framework! 🎉
 
-MCP Framework is a **framework** for building multi-agent systems. We welcome contributions that improve the framework itself, not domain-specific agents, nodes, or tools (those should be built by framework users).
+This is a **framework** for building multi-agent systems. We welcome contributions that improve the framework itself, not domain-specific agents, nodes, or tools (those should be built by framework users).
 
 ## 🤝 How to Contribute
 
